@@ -7,7 +7,7 @@ jruby_files = files.grep(/jruby/) + ["lib/transit.jar", "Jarfile"]
 
 Gem::Specification.new do |spec|
   spec.name          = "transit-ruby"
-  spec.version       = "0.8.dev"
+  spec.version       = "0.9.0"
   spec.authors       = ["Russ Olsen","David Chelimsky","Yoko Harada"]
   spec.email         = ["russ@cognitect.com","dchelimsky@cognitect.com","yoko@cognitect.com"]
   spec.summary       = %q{Transit marshalling for Ruby}
